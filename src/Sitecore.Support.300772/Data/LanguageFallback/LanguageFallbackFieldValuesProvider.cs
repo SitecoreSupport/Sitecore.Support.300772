@@ -54,10 +54,6 @@ namespace Sitecore.Support.Data.LanguageFallback
       {
         result = false;
       }
-      else if (this.ShouldStandardFieldBeSkipped(field))
-      {
-        result = false;
-      }
       else if (StandardValuesManager.IsStandardValuesHolder(item))
       {
         result = false;
